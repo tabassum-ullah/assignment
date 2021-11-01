@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block title %}LogIn{% endblock %} 
+
+{% block content %}
+
+<div class="container p-3 my-3 border" style="width:75%;">
+    <form method = "POST">
+        <h3 align="center">Log In</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        </div>
+        <div class="row" width=100%>
+            
+            <div class="col-4">
+                <button type="submit" class="btn btn-outline-secondary rounded-pill" style="letter-spacing: 1px;">LOG IN</button>
+            </div>
+            
+        </div>
+        
+        
+       
+       
+        
+    </form>
+</div>
+
+
+{% endblock %}
